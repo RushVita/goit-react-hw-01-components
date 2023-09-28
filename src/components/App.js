@@ -2,10 +2,10 @@ import { Profile } from './Card';
 import { Statistics } from './Statistics';
 import { FriendList } from './FriendList';
 import { TransactionHistory } from './TransactionHistory';
-import user from './user.json';
-import data from './data.json';
-import friends from './friends.json';
-import transactions from './transactionHistory.json';
+import user from './json/user.json';
+import data from './json/data.json';
+import friends from './json/friends.json';
+import transactions from './json/transactionHistory.json';
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      <FriendList friends={friends} />;
-      <TransactionHistory items={transactions} />;
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
