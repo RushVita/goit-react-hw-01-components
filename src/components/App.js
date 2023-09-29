@@ -1,11 +1,11 @@
-import { Profile } from './Card';
-import { Statistics } from './Statistics';
-import { FriendList } from './FriendList';
-import { TransactionHistory } from './TransactionHistory';
-import user from './json/user.json';
-import data from './json/data.json';
-import friends from './json/friends.json';
-import transactions from './json/transactionHistory.json';
+import { Profile } from './Card/Card';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import user from './Card/user.json';
+import data from './Statistics/data.json';
+import friends from './FriendList/friends.json';
+import transactions from './TransactionHistory/transactionHistory.json';
 
 function App() {
   return (

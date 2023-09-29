@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './module.css/Card.module.css';
+import css from './Card.module.css';
 
 export const Profile = ({ stats, avatar, location, tag, username }) => {
   return (
